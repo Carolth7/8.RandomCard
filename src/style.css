@@ -1,1 +1,42 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  height: 28rem;
+  width: 22.5rem;
+  justify-content: space-around;
+  border-radius: 5%;
+}
+
+.iconHeart {
+  font-size: 4rem;
+  padding-left: 1rem;
+}
+
+.numberElement {
+  font-size: 10rem;
+  align-self: center;
+}
+
+.inverseElement {
+  font-size: 4rem;
+  align-self: flex-right;
+  transform: rotate(-180deg);
+  padding-left: 1rem;
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}
